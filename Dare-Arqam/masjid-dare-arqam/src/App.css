@@ -1,38 +1,399 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dare-arqam{
+  flex-wrap: wrap;
+}
+/* body{
+  background-image: url(https://images.pexels.com/photos/2028185/pexels-photo-2028185.jpeg?auto=compress&cs=tinysrgb&w=400);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 5%;
+
+} */
+.halal{
+  margin-left: 18px;
+}
+.toggle{
+ width: 150px;
+ height: 25px;
+ 
+ display: none;
+}
+.fonter{
+  font-size: 24px;
+  font-weight: bolder;
+}
+.logo{
+    width: 180px;
+  margin-left: -80px;
+}
+.bolder{
+  font-weight: 600;
+  font-size: 18px;
+font-style: italic;
+}
+.bold{
+  font-weight: 700;
+  font-style: italic;
+}
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding:15px 30px;
+}
+
+.para{
+    background: #5c636a;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px auto;
+    width: 48%;
+    padding: 3px;
+    line-height: 2.5em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+.para2{
+    color: red;
+    text-align: center;
+
+}
+.notice{
+  color: red;
   text-align: center;
+  margin-top: 2px;
 }
+.App {
+    width: 100%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  table {
+    border: 1px solid black;
+    width: 480px;
+    height: 400px;
+    margin-bottom: 20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+  }
+  @media screen and (max-width: 576px) {
+    table {
+      border: 1px solid black;
+      width: 350px;
+      height: 400px;
+      margin-bottom: 20px;
+  }
+  .para{
+    margin-top: 2px;
+  }
+  .para2{
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  .halal-p-3{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    word-spacing: 1px;
+    color:#198754;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .halal-p-4{
+    margin-top: 20px;
+    font-size: 12px;
+    word-spacing: 1px;
+    text-align: center;
+    color:#198754;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .halal-p-5{
+    margin-top: 20px;
+    font-size: 12px;
+    word-spacing: 1px;
+    text-align: center;
+    color:#198754;
+    font-style: italic;
+    font-weight: bold;
   }
 }
+@media screen and (max-width: 767px) {
+  .toggle{
+    width: 150px;
+    height: 25px;
+    display: block;
+   }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+  td {
+    text-align: center;
+  
+  }
+  .grey{
+    background-color: #212529;
+    color: #ffffff;
+text-align: center;
+  padding: 10px;
+  }
+  .black{
+    background-color: #5c636a;
+  
+    color: #ffffff;
+  padding: 10px;
+
+  }
+  .para3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #5c636a;
+  
+  }
+  .para4{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #5c636a;
+
+  }
+  .para5{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    color:#5c636a;
+    font-weight: 600;
+    text-transform: uppercase;
+ 
+
+  }
+ 
+  .paras{
+    text-align: center;
+    font-size: 18px;
+ 
+
+    width: 50%;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 2px auto;
+    padding: 10px;
+  
+  }
+ 
+.images{
+  width: 100px;
+}
+ 
+ .paras2{
+    font-size: 15px;
+    text-align: center;
+    margin: 14px 20px;
+    color: #5c636a;
+   
+ }
+ .p-center{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ }
 
-.App-link {
-  color: #61dafb;
+ 
+#Footer{
+  background-color:#5c636a;
 }
+#font{
+  font-family: 'Roboto Condensed', sans-serif;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.new:focus{
+  box-shadow: none !important;
+  border: none;
+  outline: none;
+}
+.halal-p-1{
+  margin-top: 10px;
+  font-size: 25px;
+  text-transform:uppercase;
+}
+.halal-p-2{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.halal-p-3{
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  word-spacing: 1px;
+  color:#198754;
+  font-style: italic;
+  font-weight: bold;
+}
+.halal-p-4{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+  text-align: center;
+  color:#198754;
+  font-style: italic;
+  font-weight: bold;
+}
+.halal-p-5{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+  text-align: center;
+  color:#198754;
+  font-style: italic;
+  font-weight: bold;
+}
+.halal-p-6{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.halal-p-7{
+
+  font-size: 14px;
+  word-spacing: 1px;
+
+}
+.halal-p-8{
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+.halal-p-9{
+
+  font-size: 14px;
+  word-spacing: 1px;
+
+}
+.halal-p-10{
+  margin-top: 6px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.haram-p-1{
+  margin-top: 10px;
+  font-size: 25px;
+  text-transform:uppercase;
+}
+.haram-p-2{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.haram-p-3{
+  font-size: 14px;
+  word-spacing: 1px;
+
+}
+.haram-p-4{
+  font-size: 14px;
+  word-spacing: 1px;
+  margin-top: 10px;
+}
+.haram-p-5{
+  margin-top: 10px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.haram-p-6{
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+.haram-p-7{
+  margin-top: 5px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.haram-p-8{
+  font-size: 14px;
+  word-spacing: 1px;
+
+}
+.haram-p-9{
+  word-spacing: 1px;
+  font-size: 15px;
+}
+.haram-p-10{
+  word-spacing: 1px;
+  font-size: 13px;
+}
+.kosher-p-1{
+  margin-top: 10px;
+  font-size: 25px;
+  text-transform:uppercase;
+}
+.kosher{
+  margin-top: 20px;
+  font-size: 20px;
+
+}
+.kosher-p-2{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.kosher-p-3{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.kosher-p-5{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.kosher-p-7{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.kosher-p-8{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.kosher-p-4{
+  margin-top: 20px;
+  font-size: 16px;
+
+}
+.kosher-p-6{
+  margin-top: 20px;
+  font-size: 16px;
+}
+.zabihah-p-1{
+  margin-top: 10px;
+  font-size: 25px;
+  text-transform:uppercase;
+}
+.zabihah-p-2{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.zabihah-p-3{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.zabihah-p-4{
+  margin-top: 20px;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.zabihah-p-5{
+  font-size: 13px;
+  word-spacing: 1px;
 }
